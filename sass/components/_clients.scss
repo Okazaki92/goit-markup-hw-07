@@ -1,0 +1,37 @@
+.clients {
+&__heading {
+  text-align: center;
+  margin: 0;
+  font-size: 36px;
+  line-height: 1.16;
+  margin-bottom: 50px;
+}
+&__list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+&__background {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color, fill;
+&:hover,
+&:focus {
+  border-color: var(--point-color);
+  fill: var(--point-color);
+}
+}
+}
+
+
+
+

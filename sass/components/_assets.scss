@@ -1,0 +1,30 @@
+.assets {
+&__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 30px;
+  padding: 0;
+}
+&__item {
+  flex-basis: calc((100% - 30px) / 4);
+}
+&__title {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+  margin-top: 0;
+}
+&__copy {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--third-text-color);
+  font-weight: 400;
+  margin: 0;
+}
+&__icon {
+  margin-bottom: 30px;
+}
+}
+
+
