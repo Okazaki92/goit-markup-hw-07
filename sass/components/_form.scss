@@ -51,7 +51,7 @@
   gap: 12px;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 28px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
   transition-property: border-color, fill;
@@ -141,6 +141,7 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
+  position: initial;
   
   & .user__link {
   color: var(--point-color);
